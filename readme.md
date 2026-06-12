@@ -14,3 +14,14 @@ monkey_completed.py
 testing.py
 
 ```
+
+## Graph
+<img width="603" height="454" alt="image" src="https://github.com/user-attachments/assets/37f1a94e-ed28-4b05-9939-3f3fad5b49b3" />
+
+---
+- Based on this chart, which represents attempts to generate a word, we can observe the following metrics:
+
+### Number of Attempts – Total attempts required to generate the target word.
+
+ Number Distribution – Distribution of generated values throughout the execution.
+ Frequency Analysis Frequency of occurrence for each generated value, highlighting patterns and repetition rates.
