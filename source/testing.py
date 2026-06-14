@@ -7,13 +7,13 @@ letter = [
 
 n = 0 
 for _ in range(1000):
-    tentativas = 0
+    attempts = 0
 
     while True:
-        tentativas += 1
+        attempts += 1
 
         letter = random.choice(letter) + random.choice(letter)
 
         if letter.lower() == "ola":
-            result.append(tentativas)
+            result.append(attempts)
             break
