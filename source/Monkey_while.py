@@ -14,10 +14,6 @@ for _ in range(1000):
         letters = random.choice(l1) + random.choice(l1) + random.choice(l1)  
 
         if letters.lower() == "ola":
-            print("palavra encontrada na tentativa",attempts)
+            print("A probabilidade de gerar OLA em uma tentativa é: ",attempts)
             break
-# A probabilidade de gerar "OLA" em uma tentativa é:
-# 1 / 17.576
-# ≈ 0,0000569
-# ≈ 0,00569% 
 
