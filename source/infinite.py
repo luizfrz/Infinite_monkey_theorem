@@ -1,17 +1,7 @@
 import random
 
-
-# ==========================
-# CONFIGURATION
-# ==========================
-
 NUM_SENTENCES = 100_000
 OUTPUT_FILE = "sentences.txt"
-
-
-# ==========================
-# LANGUAGE COMPONENTS
-# ==========================
 
 VOWELS = ["a", "e", "i", "o", "u"]
 
@@ -26,11 +16,6 @@ CONSONANT_CLUSTERS = [
     "gr", "pr", "tr",
     "bl", "cl", "pl"
 ]
-
-
-# ==========================
-# SYLLABLE GENERATION
-# ==========================
 
 def generate_cv():
     """
@@ -99,10 +84,6 @@ def generate_syllable():
     return random.choice(patterns)()
 
 
-# ==========================
-# WORD GENERATION
-# ==========================
-
 def generate_word():
     """
     Generates a Portuguese-like word.
@@ -120,11 +101,6 @@ def generate_word():
 
     return word
 
-
-# ==========================
-# SENTENCE GENERATION
-# ==========================
-
 def generate_sentence():
     """
     Generates a sentence containing exactly 3 words.
@@ -134,11 +110,6 @@ def generate_sentence():
         generate_word()
         for _ in range(3)
     )
-
-
-# ==========================
-# DATASET GENERATION
-# ==========================
 
 def generate_dataset(n):
     """
@@ -152,11 +123,6 @@ def generate_dataset(n):
 
     return dataset
 
-
-# ==========================
-# SAVE DATASET
-# ==========================
-
 def save_dataset(dataset, filename):
     """
     Saves the dataset to a text file.
@@ -165,11 +131,6 @@ def save_dataset(dataset, filename):
     with open(filename, "w", encoding="utf-8") as file:
         for sentence in dataset:
             file.write(sentence + "\n")
-
-
-# ==========================
-# STATISTICS
-# ==========================
 
 def print_statistics(dataset):
     """
@@ -197,11 +158,6 @@ def print_statistics(dataset):
 
     for sentence in dataset[:10]:
         print(sentence)
-
-
-# ==========================
-# MAIN PROGRAM
-# ==========================
 
 def main():
 
