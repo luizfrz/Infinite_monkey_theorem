@@ -14,6 +14,5 @@ infinite.py # Used VOWELS  and CONSONANTS
 ```
 ## Run 
 ```text
-    python3 infinite.py
+    python3 Infinite_Monkey.py
 ```
-
