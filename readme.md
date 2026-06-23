@@ -9,8 +9,10 @@
 ```text
 Monkey/
 ├── source/
-infinite.py # Used VOWELS  and CONSONANTS
-├── setences.txt # Generated testing based infinite.py
+ generate_txt.py # Generated txt  used VOWELS  and CONSONANTS
+ infinite_consonants.py # used VOWELS  and CONSONANTS but not generated txt 
+ infinite.py # in a "ola" stop
+├── setences.txt # Generated testing based generate_txt
 ```
 ## Run 
 ```text
